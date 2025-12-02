@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="">
-      <Container>
+      <Container className={""}>
         <Flex className={"justify-between"}>
           <div className={""}>
             <Link to={"/"}>
@@ -20,7 +20,7 @@ function Header() {
             <ul className={"flex items-center gap-x-6 "}>
 
               <li className="hover:text-[#FF7628]">
-                <Link to={"/"}>
+                <Link to={"/"}> 
                   Home<IoIosArrowDown />
                 </Link>
               </li>
