@@ -6,12 +6,14 @@ import content from "../../assets/content.png"
 import Container from "../Container"
 import Flex from "../Flex"
 import Button from "../Button"
+import Banner from "../layouts/Banner"
 
 const Home = () => {
   return (
     <>
      <Header/>
-     <body className="">
+     <Banner/>
+     {/* <body className="">
       <Image src={frame} className={"max-h-screen w-full relative"}/>
       <Image src={girl} className={"absolute top-[20%] bottom-[80%]"}/>
 
@@ -27,7 +29,7 @@ const Home = () => {
        </div>
       </Flex>
      </Container>
-      </body>
+      </body> */}
     </>
   )
 }
